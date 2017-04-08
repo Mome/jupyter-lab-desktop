@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Jupyter Lab
+Icon=jupyter
+Exec=/home/mome/.local/bin/lab %f
+Name[en_US]=\s

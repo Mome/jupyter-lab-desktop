@@ -1,0 +1,2 @@
+source ~/venv3/bin/activate
+python ~/.local/bin/start_lab.py

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 48 48"
+   version="1.1"
+   id="svg3952"
+   sodipodi:docname="jupyter.svg"
+   inkscape:version="0.92.1 r">
+  <metadata
+     id="metadata3956">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="1001"
+     id="namedview3954"
+     showgrid="false"
+     inkscape:zoom="10.520833"
+     inkscape:cx="34.673065"
+     inkscape:cy="19.958112"
+     inkscape:window-x="1920"
+     inkscape:window-y="80"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Artboard" />
+  <defs
+     id="defs3924">
+    <linearGradient
+       id="linearGradient3764"
+       x1="1"
+       x2="47"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0,-1,1,0,-1.5e-6,47.999998)">
+      <stop
+         style="stop-color:#e4e4e4;stop-opacity:1"
+         id="stop3919" />
+      <stop
+         offset="1"
+         style="stop-color:#eee;stop-opacity:1"
+         id="stop3921" />
+    </linearGradient>
+  </defs>
+  <g
+     id="g3932">
+    <path
+       d="m 36.31 5 c 5.859 4.062 9.688 10.831 9.688 18.5 c 0 12.426 -10.07 22.5 -22.5 22.5 c -7.669 0 -14.438 -3.828 -18.5 -9.688 c 1.037 1.822 2.306 3.499 3.781 4.969 c 4.085 3.712 9.514 5.969 15.469 5.969 c 12.703 0 23 -10.298 23 -23 c 0 -5.954 -2.256 -11.384 -5.969 -15.469 c -1.469 -1.475 -3.147 -2.744 -4.969 -3.781 z m 4.969 3.781 c 3.854 4.113 6.219 9.637 6.219 15.719 c 0 12.703 -10.297 23 -23 23 c -6.081 0 -11.606 -2.364 -15.719 -6.219 c 4.16 4.144 9.883 6.719 16.219 6.719 c 12.703 0 23 -10.298 23 -23 c 0 -6.335 -2.575 -12.06 -6.719 -16.219 z"
+       style="opacity:0.05"
+       id="path3926" />
+    <path
+       d="m 41.28 8.781 c 3.712 4.085 5.969 9.514 5.969 15.469 c 0 12.703 -10.297 23 -23 23 c -5.954 0 -11.384 -2.256 -15.469 -5.969 c 4.113 3.854 9.637 6.219 15.719 6.219 c 12.703 0 23 -10.298 23 -23 c 0 -6.081 -2.364 -11.606 -6.219 -15.719 z"
+       style="opacity:0.1"
+       id="path3928" />
+    <path
+       d="m 31.25 2.375 c 8.615 3.154 14.75 11.417 14.75 21.13 c 0 12.426 -10.07 22.5 -22.5 22.5 c -9.708 0 -17.971 -6.135 -21.12 -14.75 a 23 23 0 0 0 44.875 -7 a 23 23 0 0 0 -16 -21.875 z"
+       style="opacity:0.2"
+       id="path3930" />
+  </g>
+  <g
+     id="g3936">
+    <path
+       d="m 24 1 c 12.703 0 23 10.297 23 23 c 0 12.703 -10.297 23 -23 23 -12.703 0 -23 -10.297 -23 -23 0 -12.703 10.297 -23 23 -23 z"
+       style="fill:url(#linearGradient3764);fill-opacity:1"
+       id="path3934" />
+  </g>
+  <g
+     id="g3940">
+    <path
+       d="m 40.03 7.531 c 3.712 4.084 5.969 9.514 5.969 15.469 0 12.703 -10.297 23 -23 23 c -5.954 0 -11.384 -2.256 -15.469 -5.969 4.178 4.291 10.01 6.969 16.469 6.969 c 12.703 0 23 -10.298 23 -23 0 -6.462 -2.677 -12.291 -6.969 -16.469 z"
+       style="opacity:0.1"
+       id="path3938" />
+  </g>
+  <g
+     transform="matrix(0.14314886,0,0,0.14314886,-29.084325,1.8498466)"
+     id="Artboard"
+     sketch:type="MSArtboardGroup">
+    <g
+       id="Group-Copy-4-+-Group-+-Group-Copy"
+       sketch:type="MSLayerGroup"
+       transform="matrix(0.9146506,0,0,0.9146506,26.209908,12.447857)">
+      <g
+         id="Group-Copy-4"
+         transform="translate(248,26)"
+         sketch:type="MSShapeGroup">
+        <path
+           style="fill:#e46e2e"
+           inkscape:connector-curvature="0"
+           d="m 131.25734,205.27361 c -42.589724,0 -79.67695,-15.3113 -98.984437,-37.93323 14.611124,40.55416 53.410729,69.54891 98.984437,69.54891 45.5737,0 84.37396,-28.99475 98.98508,-69.54891 -19.30749,22.62193 -56.39471,37.93323 -98.98508,37.93323"
+           id="Fill-9" />
+        <path
+           style="fill:#e46e2e"
+           inkscape:connector-curvature="0"
+           d="m 131.25734,58.040504 c 42.59037,0 79.67759,15.311947 98.98508,37.933227 -14.61112,-40.554155 -53.41138,-69.548909 -98.98508,-69.548909 -45.573708,0 -84.373313,28.994754 -98.984437,69.548909 C 51.58039,73.352451 88.667616,58.040504 131.25734,58.040504"
+           id="Fill-10" />
+        <path
+           style="fill:#767474"
+           inkscape:connector-curvature="0"
+           d="m 51.456544,259.8646 c -9.131717,0.391 -16.851591,-6.69447 -17.242593,-15.8261 -0.391643,-9.13163 6.694538,-16.85143 15.826255,-17.24307 9.131717,-0.391 16.851591,6.69448 17.242593,15.8261 0.391643,9.13163 -6.693896,16.85207 -15.826255,17.24307 z"
+           id="Fill-11" />
+        <path
+           style="fill:#767474"
+           inkscape:connector-curvature="0"
+           d="m 38.757399,44.365096 c -5.707207,0.24434 -10.532582,-4.184075 -10.776913,-9.891489 -0.244331,-5.708072 4.183924,-10.532964 9.89113,-10.777304 5.707866,-0.244998 10.533241,4.184076 10.777572,9.891489 0.244331,5.707414 -4.183924,10.532964 -9.891789,10.777304 z"
+           id="Fill-12" />
+        <path
+           style="fill:#767474"
+           inkscape:connector-curvature="0"
+           d="m 202.98198,32.109949 c -8.86307,0.379485 -16.35595,-6.49699 -16.73544,-15.360137 -0.37948,-8.8623956 6.49769,-16.35534634 15.36001,-16.73483119 8.86307,-0.37948484 16.35521,6.49699049 16.73469,15.36013619 0.38023,8.862396 -6.49694,16.355347 -15.35926,16.734832 z"
+           id="Fill-8" />
+      </g>
+    </g>
+  </g>
+</svg>
