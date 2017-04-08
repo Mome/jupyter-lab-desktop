@@ -13,7 +13,7 @@ import os
 
 # change this to whatever you want to use
 browser_cmd = 'chromium --app=%s'
-virtualenv = None 
+virtualenv = None # Example: '~/venv/bin/activate'
 
 # create virtualenv command
 if virtualenv:
