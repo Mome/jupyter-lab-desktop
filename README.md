@@ -1,4 +1,4 @@
-# Jupyter Lab Desktop
+# [](jupyter.svg) Jupyter Lab Desktop
 Start Jupyter Lab like a desktop application. Works with chrome / chromium on Linux.
 
 ## Installation
