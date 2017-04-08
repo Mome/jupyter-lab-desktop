@@ -1,5 +1,4 @@
 [Desktop Entry]
-Type=Application
 Name=Jupyter Lab
 Icon=jupyter
 Exec=/usr/local/bin/jupyter-lab-desktop %f
