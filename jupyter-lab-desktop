@@ -9,14 +9,33 @@ import subprocess as sp
 import time
 import secrets
 import re
+import os
 
-# change this to whatever browser you want to use
+# change this to whatever you want to use
 browser_cmd = 'chromium --app=%s'
+virtualenv = None 
 
-# start jupyter server
+# create virtualenv command
+if virtualenv:
+    venv_cmd = ['source', virtualenv, '&&']
+else:
+    venv_cmd = []
+
+# create jupyter lab command string
 token = secrets.token_hex(32)
-cmd = 'jupyter lab --NotebookApp.token=%s --no-browser' % token
-server = sp.Popen(cmd.split() + sys.argv[1:])
+lab_cmd = [
+    'jupyter lab',
+    '--NotebookApp.token=' + token,
+    '--no-browser',
+]
+lab_cmd_str = ' '.join(venv_cmd + lab_cmd + sys.argv[1:])
+
+# create list notebook kernel command string
+nblist_cmd = ['jupyter notebook list']
+nblist_cmd_str = ' '.join(venv_cmd + nblist_cmd)
+
+# start jupyter lab server
+server = sp.Popen(lab_cmd_str, shell=True)
 
 # check if server started and aquire url
 pattern = re.compile(r'http://localhost:\d+/\?token=([\w]+)')
@@ -28,8 +47,7 @@ while not found_server:
     if tic + timeout < toc:
         raise TimeoutError('Server not found.')
 
-    cmd = "jupyter notebook list"
-    nb_list = sp.check_output(cmd.split()).decode()
+    nb_list = sp.check_output(nblist_cmd_str, shell=True).decode()
     nb_list = nb_list.split('\n')[1:-1]
 
     for line in nb_list:
@@ -46,7 +64,7 @@ while not found_server:
 cmd = browser_cmd % url
 browser = sp.Popen(cmd.split())
 
-print('Wait for browser to be closed.')
+print('Waiting for browser to be closed.')
 browser.wait()
 server.terminate()
 print()

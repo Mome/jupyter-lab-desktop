@@ -1,2 +1,5 @@
-# jupyter-lab-desktop
-Start Jupyter Lab like a desktop application.
+# Jupyter Lab Desktop
+Start Jupyter Lab like a desktop application. Works on Linux.
+
+## Installation
+copy *jupyter-lab-app* to 
